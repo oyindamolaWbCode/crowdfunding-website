@@ -6,6 +6,7 @@
 
 body{
     width:100%;
+    background-color: hsla(0, 25%, 98%, 0.867);
     text-align: center;
 }
 
@@ -41,4 +42,46 @@ a{
     color:white;
     text-decoration: none;
     margin-right: 20px;
+}
+
+.phase-one{
+    width:50%;
+    height:220px;
+    background-color: white;
+    margin: 0 auto;
+    position:relative;
+    padding:10px;
+    border-radius: 8px;
+    bottom:93px;
+}
+
+.master{
+    position: absolute;
+    top:-30px;
+    margin-left: auto;
+    margin-right: auto;
+    left:0;
+    right:0;
+    
+}
+
+h2{
+    margin-top:30px;
+    margin-bottom:15px;
+}
+
+.in-flex{
+    padding:0px 23px 0px 23px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#backProject{
+    padding:6px 36px;
+    border-radius:29px;
+    border: 0;
+    color:white;
+    background-color: hsl(176, 50%, 47%);
+    font-weight: bold;
 }
