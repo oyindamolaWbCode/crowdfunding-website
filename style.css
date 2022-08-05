@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    text-align: center;
+}
+
+.header{
+    background-image: url("./images/image-hero-desktop.jpg");
+    background-position: center center;
+    background-size: cover;
+    height:400px;
+}
+
+.title{
+    padding-top:40px;
+    display:flex;
+    margin: 0 auto;
+    width:87%;
+    justify-content: space-between;
+}
+
+.title img{
+    background-size: cover;
+}
+
+ul{
+    display:flex;
+       
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+}
