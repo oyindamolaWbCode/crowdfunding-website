@@ -8,6 +8,8 @@ body{
     width:100%;
     background-color: hsla(0, 25%, 98%, 0.867);
     text-align: center;
+    min-height: 100vh;
+    
 }
 
 .header{
@@ -68,6 +70,7 @@ a{
 h2{
     margin-top:30px;
     margin-bottom:15px;
+    font-family: 'Commissioner', sans-serif;
 }
 
 .in-flex{
@@ -152,3 +155,57 @@ h2{
     background-color: hsl(176, 50%, 47%);
   }
 
+  .third-phase{
+    width:50%;
+    /* height:180px; */
+    background-color: white;
+    margin: 20px auto;
+    position:relative;
+    padding:30px;
+    border-radius: 8px;
+    bottom:93px;
+}
+
+.left-assigned{
+    text-align:left ;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 700;
+}
+
+.left-assign{
+    text-align:left ;
+}
+
+.singled-styled{
+    margin-bottom:30px;
+}
+
+.make-flex{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stand-alone{
+    border:1px solid rgba(122, 122, 122, 0.171);
+    border-radius: 10px;
+    padding:30px;
+}
+
+.flexy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-flex{
+    display: flex;
+
+}
+
+span h2{
+    margin-right:15px;
+}
+
+#reward{
+    padding:4px 15px;
+}
