@@ -85,3 +85,70 @@ h2{
     background-color: hsl(176, 50%, 47%);
     font-weight: bold;
 }
+
+.phase-two{
+    width:50%;
+    height:180px;
+    background-color: white;
+    margin: 20px auto;
+    position:relative;
+    padding:10px;
+    border-radius: 8px;
+    bottom:93px;
+}
+
+.phase-two-In-flex{
+    padding:10px 30px;
+    display:flex;
+    
+}
+
+/* .stat{
+    border-right:1px solid red;
+    margin:auto;
+} */
+
+.stat h2{
+    font-size:27px;
+    font-weight:bold;
+    margin-right:140px
+    
+   
+}
+
+.stat p{
+    margin-left: -110px;
+    margin-top: -10px;
+}
+
+/* .stats p::after {
+    display: block;
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: hsl(0, 0%, 48%);
+    position: relative;
+    bottom: -20px;
+    margin: auto;
+  } */
+
+  hr{
+    margin-right:55px;
+    padding-top:10px;
+  }
+
+  .progress-bar{
+    margin-top:30px;
+    width:100%;
+    height:15px;
+    border-radius: 10px;
+    background-color: rgba(122, 122, 122, 0.171);
+  }
+
+  .bar-within{
+    width:80%;
+    height:15px;
+    border-radius: 10px;
+    background-color: hsl(176, 50%, 47%);
+  }
+
