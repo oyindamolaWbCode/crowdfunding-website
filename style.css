@@ -173,7 +173,8 @@ h2{
 }
 
 .left-assign{
-    text-align:left ;
+    text-align:left;
+    margin-bottom:15px;
 }
 
 .singled-styled{
@@ -187,9 +188,37 @@ h2{
 }
 
 .stand-alone{
-    border:1px solid rgba(122, 122, 122, 0.171);
+    border:2px solid rgba(122, 122, 122, 0.171);
     border-radius: 10px;
     padding:30px;
+    margin-bottom: 25px;
+}
+
+.stand-alone button{
+    padding:15px 22px;
+    border-radius:20px;
+    border:none;
+    margin-top:18px;
+    color:white;
+    background-color: hsl(176, 50%, 47%);
+    font-family: 'Commissioner', sans-serif;
+}
+
+.alone-opacity{
+    opacity:0.4;
+}
+
+.alone-opacity .button-opacity{
+    background-color: rgba(29, 28, 28, 0.171);
+}
+
+.comment{
+    margin-top: 25px;
+}
+
+.pledge{
+    color: hsl(176, 50%, 47%);
+    font-family: 'Commissioner', sans-serif;
 }
 
 .flexy{
@@ -204,8 +233,6 @@ h2{
 
 span h2{
     margin-right:15px;
-}
-
-#reward{
-    padding:4px 15px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight:700;
 }
