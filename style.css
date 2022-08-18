@@ -75,7 +75,7 @@ body{
     display: block;
   }
 
-.title{
+/* .title{
     padding-top:40px;
     display:flex;
     margin: 0 auto;
@@ -94,7 +94,7 @@ ul{
 
 li{
     list-style-type: none;
-}
+} */
 
 a{
     color:white;
@@ -331,6 +331,35 @@ span h2{
         width: 100%;
     }
 
+    .phase-two{
+        height:410px;
+    }
+
+    .phase-two-In-flex{
+        flex-direction:column;
+    }
+
+    hr{
+        margin:10px auto;
+        padding:0px 0px 0px 63px;
+    }
+
+    .stat h2{
+        margin-top:25px;
+        margin-left:auto;
+        margin-bottom:10px;
+        margin-right: auto;
+    }
+
+    .stat p{
+        margin: auto;
+    }
+
+    .third-phase{
+        width:80%;
+        
+        /* margin-top:60px; */
+    }
 }
 
 @media (min-width:1025px) and (max-width:2561px){
