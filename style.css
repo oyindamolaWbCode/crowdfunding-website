@@ -75,27 +75,6 @@ body{
     display: block;
   }
 
-/* .title{
-    padding-top:40px;
-    display:flex;
-    margin: 0 auto;
-    width:87%;
-    justify-content: space-between;
-}
-
-.title img{
-    background-size: cover;
-}
-
-ul{
-    display:flex;
-       
-}
-
-li{
-    list-style-type: none;
-} */
-
 a{
     color:white;
     text-decoration: none;
@@ -162,11 +141,6 @@ h2{
     
 }
 
-/* .stat{
-    border-right:1px solid red;
-    margin:auto;
-} */
-
 .stat h2{
     font-size:27px;
     font-weight:bold;
@@ -179,17 +153,6 @@ h2{
     margin-left: -110px;
     margin-top: -10px;
 }
-
-/* .stats p::after {
-    display: block;
-    content: "";
-    width: 40%;
-    height: 2px;
-    background: hsl(0, 0%, 48%);
-    position: relative;
-    bottom: -20px;
-    margin: auto;
-  } */
 
   hr{
     margin-right:55px;
@@ -357,32 +320,43 @@ span h2{
 
     .third-phase{
         width:80%;
-        
-        /* margin-top:60px; */
     }
 }
 
-@media (min-width:1025px) and (max-width:2561px){
-    .topnav img{
-        display: none;
-    }
-}
+/* Ends here */
 
-@media screen and (min-width: 750px) {
+/* Tablets Responsivesness */
+
+@media (min-width: 767px){
+
+    .phase-one{
+        width:80%;    
+    }
+
     .card {
       padding: 1.5em;
     }
 
     .hero-section {
       background-image: url("./images/image-hero-desktop.jpg");
+      background-position: center center;
+      background-size: cover;
+      height:400px;
     }
 
     .container {
-      width: 100%;
+      width:auto;
     }
 
     .hero {
+        padding: 0px 20px 0px 20px;
+        display: flex;
+        position: relative;
         align-items: center;
+      }
+
+      nav{
+        width:50%;
       }
 
       .menu {
@@ -408,3 +382,14 @@ span h2{
         display: none;
       }
 }
+/* Ends here */
+
+/* Laptops and large screen */
+
+@media (min-width:1025px) and (max-width:2561px){
+    .topnav img{
+        display: none;
+    }
+}
+
+/* Ends here */
