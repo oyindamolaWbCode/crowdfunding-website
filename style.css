@@ -274,6 +274,7 @@ span h2{
     }
 
     .phase-two{
+        height:410px;
         width:80%;
         
     }
@@ -292,10 +293,6 @@ span h2{
         background-color: rgb(156, 28, 28);
         border-radius: 0.5em;
         width: 100%;
-    }
-
-    .phase-two{
-        height:410px;
     }
 
     .phase-two-In-flex{
