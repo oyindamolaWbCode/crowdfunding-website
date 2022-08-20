@@ -352,9 +352,9 @@ span h2{
         align-items: center;
       }
 
-      nav{
-        width:50%;
-      }
+      /* nav{
+        width:20%;
+      } */
 
       .menu {
         display: block;
@@ -378,15 +378,49 @@ span h2{
       br {
         display: none;
       }
+
+      .phase-two{
+        padding:20px;
+        height:410px;
+        width:80%;
+      }
+
+      .phase-two-In-flex{
+        flex-direction:column;
+    }
+
+    hr{
+        margin:10px auto;
+        padding:0px 0px 0px 63px;
+    }
+
+    .stat h2{
+        margin-top:25px;
+        margin-left:auto;
+        margin-bottom:10px;
+        margin-right: auto;
+    }
+
+    .stat p{
+        margin: auto;
+    }
+
+    .third-phase{
+        width:80%;
+    }
 }
 /* Ends here */
 
 /* Laptops and large screen */
 
-@media (min-width:1025px) and (max-width:2561px){
+@media (min-width:1023px) and (max-width:2561px){
     .topnav img{
         display: none;
     }
+
+    /* nav{
+        width:20%;
+      } */
 }
 
 /* Ends here */
