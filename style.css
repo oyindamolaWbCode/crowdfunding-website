@@ -322,9 +322,9 @@ span h2{
 
 /* Ends here */
 
-/* Tablets Responsivesness */
+/* Tablets Responsivesness n*/
 
-@media (min-width: 767px){
+@media (min-width: 767px) and (max-width:769px) {
 
     .phase-one{
         width:80%;    
@@ -418,9 +418,27 @@ span h2{
         display: none;
     }
 
-    /* nav{
-        width:20%;
-      } */
-}
+    .menu {
+        display: block;
+        display: flex;
+        position: static;
+        background-color: transparent;
+      }
+    
+      .menu li {
+        list-style: none;
+        color: white;
+        border-bottom: none;
+        padding-right: 0.4em;
+      }
 
+      .closebtn,
+      #menu-icon {
+        display: none;
+      }
+
+      br {
+        display: none;
+      }
+}
 /* Ends here */
