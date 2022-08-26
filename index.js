@@ -23,3 +23,6 @@ closeIcon.addEventListener('click', () => {
           closeIcon.style.display = 'none';
           openIcon.style.display = 'block';
 });
+
+let firstPage = document.querySelector('.firstPage');
+document.querySelector('.firstPage').style.display = 'none';
