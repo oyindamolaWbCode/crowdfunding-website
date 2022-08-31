@@ -116,7 +116,7 @@ h2{
     justify-content: space-between;
 }
 
-#backProject{
+.backProject{
     padding:6px 36px;
     border-radius:29px;
     border: 0;
@@ -256,6 +256,156 @@ span h2{
     font-family: 'Commissioner', sans-serif;
     font-weight:700;
 }
+
+/* Modal selection */
+.card {
+  position: relative;
+  width: 100%;
+  border: 2px solid var(--darkGrayBG);
+  border-radius: 0.5em;
+  margin: 1.5em auto;
+  padding: 1em;
+}
+
+.blue-h3 {
+  color: var(--moderateCyan);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price p {
+  margin-left: 0.5em;
+}
+
+.modal,
+#tyModal {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: -200px;
+}
+
+.white-box-container input[name="modal"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 5px solid white;
+  outline: 1px solid rgba(128, 128, 128, 0.185);
+}
+
+.white-box-container input:checked ~ .checkmark {
+  background-color: var(--moderateCyan);
+}
+
+.pledge,
+#tyModal,
+#modalSelection {
+  display: none;
+}
+
+main {
+  background-color: var(--darkGrayBG);
+  position: absolute;
+  transform: translateY(-55px);
+}
+
+button {
+  color: white;
+  font-weight: 700;
+  background-color: var(--moderateCyan);
+  border: none;
+  border-radius: 2em;
+  width: 150px;
+  padding: 1em 0;
+}
+
+button:hover{
+  background-color: var(--darkCyan);
+}
+
+.modal button {
+  padding: 1em 2em;
+}
+
+.modal .heading {
+  padding-top: 0.5em;
+}
+
+.modal h4:first-of-type:hover{
+  color: var(--moderateCyan);
+}
+
+button#backPrjBtn {
+  width: 200px;
+  padding: 1.3em;
+}
+
+button[title="price"] {
+  background-color: white;
+  color: var(--darkGrayBG);
+  border: 2px solid var(--darkGrayBG);
+}
+
+button[title="price"]:hover{
+  border-color: var(--moderateCyan);
+}
+
+.pledge button{
+  width:auto;
+}
+
+.white-box-container,
+.modal {
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 0.5em;
+  position: relative;
+  margin-bottom: 2em;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alignerModal {
+  display: flex;
+  align-items: center;
+}
+
+.alignerModal h4 {
+  margin: 0.5em;
+  margin-left: 1em;
+}
+
+p {
+  color: var(--darkGray);
+  line-height: 1.7em;
+}
+
+#logo-mastercraft {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: -30px;
+}
+
+/* ends here */
 
 /* Mobile responsiveness */
 
