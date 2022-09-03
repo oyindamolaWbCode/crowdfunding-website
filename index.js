@@ -55,7 +55,7 @@ let backPrjBtn = document.getElementById("backPrjBtn");
 
 let modalSelection = document.getElementById("modalSelection");
 
-let modalCloseBtn = document.getElementById("CloseBtn");
+let modalCloseBtn = document.getElementById("closeBtn");
 
 let tyModal = document.getElementById("tyModal");
 
@@ -67,8 +67,9 @@ backPrjBtn.addEventListener("click", () => {
 });
 
 modalCloseBtn.addEventListener("click", () => {
+    firstPage.style.display ="block";
   modalSelection.style.display = "none";
-  firstPage.style.display ="block";
+  
 });
 
 tyBtn.addEventListener("click", () => {
