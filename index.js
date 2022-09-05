@@ -55,11 +55,13 @@ let backPrjBtn = document.getElementById("backPrjBtn");
 
 let modalSelection = document.getElementById("modalSelection");
 
-let modalCloseBtn = document.getElementById("closeBtn");
+let modalCloseBtn = document.getElementById("closebtn");
 
 let tyModal = document.getElementById("tyModal");
 
 let tyBtn = document.getElementById("tyBtn");
+
+let bambooTick = document.getElementById("bamboo");
 
 backPrjBtn.addEventListener("click", () => {
   modalSelection.style.display = "block";
@@ -71,6 +73,10 @@ modalCloseBtn.addEventListener("click", () => {
   modalSelection.style.display = "none";
   
 });
+
+bambooTick.addEventListener("click", () =>{
+  pledge.style.display = "block"
+})
 
 tyBtn.addEventListener("click", () => {
   tyModal.style.display = "none";
