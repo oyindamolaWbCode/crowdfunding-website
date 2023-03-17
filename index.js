@@ -23,7 +23,6 @@ closeIcon.addEventListener("click", () => {
 });
 
 let firstPage = document.querySelector(".firstPage");
-//document.querySelector('.firstPage').style.display = 'none';
 
 let pledge = document.querySelector(".pledge");
 let inputs = document.querySelectorAll('input[name="modal"]');
@@ -63,9 +62,11 @@ let tyBtn = document.getElementById("tyBtn");
 
 let bambooTick = document.getElementById("bamboo");
 
+let whole = document.getElementsByClassName('whole-body');
+
 backPrjBtn.addEventListener("click", () => {
   modalSelection.style.display = "block";
-  firstPage.style.display = "none";
+  whole.style.opacity = "0.7";
 });
 
 modalCloseBtn.addEventListener("click", () => {

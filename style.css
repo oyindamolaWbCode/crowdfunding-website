@@ -258,6 +258,16 @@ span h2{
 }
 
 /* Modal selection */
+#modal-container{
+  width:50%;
+  background-color: white;
+  margin: 20px auto;
+  position:relative;
+  border-radius: 8px;
+  top: -1800px;
+
+}
+
 .card {
   position: relative;
   width: 100%;
@@ -468,6 +478,10 @@ p {
 
     .third-phase{
         width:80%;
+    }
+    #modal-container{
+      width:80%;
+      top: -2500px;
     }
 }
 
